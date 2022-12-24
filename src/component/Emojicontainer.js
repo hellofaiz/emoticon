@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Resultemoji from './Resultemoji'
 
 function Emojicontainer({list}) {
