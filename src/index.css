@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 5vh;
+  background-color: #8F2D56;
+}
+.container>.assets>ul>li>.link{
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+
+}
+.container>.assets>ul>li{
+  list-style: none outside none;
+}
+
+.assets > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.app {
+  background-color: #FBB13C;
+  width: 100vw;
+  height: 80vh;
+  margin-top: 10rem;
+}
+.input-container {
+  width: 100vh;
+  padding-left: 1rem;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../src/Thinking-Smiley-Pic.jpg);
+  background-size:10vw 10vh; */
+  
+}
+#box {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.result-container {
+  width: 100vw;
+
+  font-size: large;
+  font-family: monospace;
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0px 2rem;
+}
+
+.item {
+  width: 10rem;
+  height: auto;
+  background-color:#D81159;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.item:hover {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px black;
+}
+
+.emoji {
+  font-size: 2.5rem;
+}
+.no_result{
+  text-align: center;
+  font-size: 200%;
+}
